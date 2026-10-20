@@ -1,0 +1,21 @@
+PAUSA & ESCOLHA v1.1 - CORREÇÃO DE TELA EM BRANCO
+
+SE A PÁGINA ESTAVA BRANCA:
+1. Não abra o HTML na pré-visualização do ChatGPT, Drive ou WhatsApp; esses leitores podem bloquear os scripts.
+2. Para usar como site ou app instalável, extraia o ZIP. Publique TODOS os arquivos da pasta em um serviço HTTPS de hospedagem estática.
+3. O site precisa ter index.html na raiz, junto a manifest.webmanifest, service-worker.js e os dois ícones.
+4. Depois de publicar, abra o endereço https://... no Safari ou Chrome.
+5. Se o app já estiver instalado, feche e reabra depois da atualização. Se permanecer em branco, visite o mesmo endereço diretamente no Safari/Chrome.
+6. Você deverá ver a tela inicial com quatro caminhos. Se houver problema de execução, a tela exibirá instruções de diagnóstico.
+
+DADOS PESSOAIS:
+- O diário, favoritos, cartões e planos são guardados no armazenamento LOCAL do navegador, neste aparelho.
+- Não há sincronização entre aparelhos nem recuperação automática se você trocar de celular.
+- Não use navegação privada. Não limpe os dados do navegador para este site.
+- Faça backup em Meu espaço > Privacidade e backup > Exportar meus dados.
+- Atualizações no MESMO endereço HTTPS normalmente preservam os dados locais; mudar o endereço não transfere os dados.
+- Seus registros contêm dados sensíveis. Evite compartilhar o backup JSON ou a URL de um servidor de teste com informações pessoais.
+
+LIMITES:
+- Esta é uma ferramenta de autoapoio, não um tratamento validado para compulsão alimentar.
+- Para publicar ao público, ainda faltam revisão clínica, acessibilidade completa, privacidade e segurança apropriadas.
