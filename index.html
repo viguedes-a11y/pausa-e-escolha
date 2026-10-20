@@ -245,4 +245,8 @@ render();
 if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1')){
   window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));
 }
+/* Pede ao navegador para não apagar os dados locais quando faltar espaço. */
+if(navigator.storage&&navigator.storage.persist){
+  navigator.storage.persisted().then(ok=>ok||navigator.storage.persist()).catch(()=>{});
+}
 </script></body></html>
